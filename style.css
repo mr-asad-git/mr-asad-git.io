@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reusable code  */
+.justify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-spacearound {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.justify-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* S1 starts */
+#hero-section {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding-bottom: 4rem;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+navbar.scrolled {
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    padding-top: 22px;
+}
+
+.logo-img {
+    cursor: pointer;
+}
+
+.ul-list {
+    gap: 40px;
+}
+
+.l-item,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #999999;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.l-item a:hover {
+    transition: 0.3s ease;
+    color: #525252;
+}
+
+.preorder-button {
+    padding-left: 20px;
+}
+
+.preorder-button p {
+    background-color: #FF6622;
+    padding: 10px 30px 10px 30px;
+    border-radius: 2rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.preorder-button p:hover {
+    background-color: #4d4d4d;
+}
+
+.hero-text {
+    width: 100%;
+}
+
+.hero-head {
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 7rem 0px 0px 0px;
+}
+
+.text-div {
+    width: 100%;
+    text-align: center;
+}
+
+.hero-p {
+    width: 55%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 400;
+    text-align: center;
+    color: #7a7a7a;
+    line-height: 45px;
+    font-size: 30px;
+    padding: 16px 0px 30px 0px;
+}
+
+.video-button {
+    width: 15%;
+    gap: 22px;
+    padding: 15px 80px 15px 80px;
+    border-radius: 3rem;
+    cursor: pointer;
+    background-color: #0084ff;
+    transition: 0.5s ease;
+}
+
+.video-button:hover p {
+    color: #000;
+}
+
+.video-button:hover {
+    background-color: #000;
+    padding: 15px 0px 15px 5px;
+}
+
+.video-button p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 520;
+    font-family: sans-serif;
+}
+
+.hero-img {
+    margin-top: 70px;
+}
+
+
+
+
+/* Product section starts */
+#product-section {
+    width: 100%;
+    background-color: #fff;
+}
+
+.product-head {
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 7rem 0px 0px 0px;
+}
+
+.product-text-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-p {
+    width: 48%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 400;
+    text-align: center;
+    color: #7a7a7a;
+    line-height: 45px;
+    font-size: 23px;
+    padding: 16px 0px 30px 0px;
+}
+
+.product-img {
+    padding-top: 6rem;
+    padding-bottom: 12rem;
+    margin-left: -19rem;
+}
+
+.up-s {
+    border-radius: 100px;
+    width: 2%;
+    text-align: center;
+    display: block;
+    line-height: 31px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    background: #0084ff;
+    color: #fff;
+    margin-top: -24rem;
+    margin-left: -3rem;
+}
+
+.bo-s {
+    border-radius: 100px;
+    width: 2%;
+    text-align: center;
+    display: block;
+    line-height: 31px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    background: #0084ff;
+    color: #fff;
+    margin-left: -16rem;
+    margin-bottom: -17rem;
+}
+
+.ri-s {
+    border-radius: 100px;
+    width: 2%;
+    text-align: center;
+    display: block;
+    line-height: 31px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    background: #0084ff;
+    color: #fff;
+    margin-right: -1.5rem;
+    margin-top: -12rem;
+}
+
+.le-s {
+    border-radius: 100px;
+    width: 2%;
+    text-align: center;
+    display: block;
+    line-height: 31px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    background: #0084ff;
+    color: #fff;
+    margin-left: -7rem;
+    margin-bottom: -2rem;
+}
+
+
+
+/* how it works section  */
+#how-it-works {
+    height: 100vh;
+    width: 100%;
+    background: #f6fbff;
+}
+
+.how-p {
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 400;
+    text-align: center;
+    color: #7a7a7a;
+    line-height: 45px;
+    font-size: 23px;
+    padding: 12px 0px 30px 0px;
+}
+
+
+.grid-div .col {
+    width: 30%;
+    margin-top: 4rem;
+}
+
+.col-head {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.col-p {
+    width: 100%;
+    text-align: center;
+}
+
+.col-p p {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #b5b5b5;
+    padding-top: 10px;
+}
