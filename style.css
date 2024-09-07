@@ -146,6 +146,7 @@ a {
     margin-top: 70px;
 }
 
+
 .sm-buttons {
     display: none;
 }
@@ -346,7 +347,7 @@ a {
         width: 107%;
     }
 
-    .l-item {
+    .buttons {
         display: none;
     }
 
@@ -375,6 +376,15 @@ a {
 
     .preorder-button p {
         display: none;
+    }
+
+    .sm-buttons {
+        display: block;
+    }
+
+    .l-item svg {
+        height: 100px;
+        width: 100px;
     }
 
 }
