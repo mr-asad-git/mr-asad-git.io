@@ -94,10 +94,10 @@ a {
 }
 
 .hero-head {
-    font-size: 80px;
+    font-size: 77px;
     font-family: sans-serif;
     text-align: center;
-    padding: 7rem 0px 0px 0px;
+    padding: 12rem 0px 0px 0px;
 }
 
 .text-div {
@@ -324,6 +324,12 @@ a {
     margin: 15px;
 }
 
+.ben-icon img {
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+
 .ben-text-div {
     flex-direction: column;
 }
@@ -339,6 +345,80 @@ a {
     font-family: sans-serif;
     font-size: 16px;
     margin-top: 10px;
+}
+
+
+#properties {
+    width: 100%;
+    color: #000;
+    margin-top: 4.5rem;
+}
+
+.prop-col {
+    margin: 10px;
+    height: 130px;
+    width: 400px;
+    border: none;
+    box-shadow: none;
+}
+
+.prop-container {
+    margin-bottom: 8rem;
+}
+
+#collection-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.collection-div {
+    gap: 30px;
+}
+
+.collection-text {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.collection-hr {
+    margin-bottom: 4rem;
+}
+
+.collection-name {
+    margin-top: 1rem;
+    font-size: 17px;
+    color: #0084ff;
+    font-weight: 500;
+}
+
+.collection-type {
+    color: #b5b5b5;
+    font-size: 15px;
+}
+
+.collection-price {
+    color: #FF6622;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 400;
+    margin: 1rem 0 1rem 0;
+}
+
+.collection-button button {
+    height: 35px;
+    width: 120px;
+    outline: none;
+    border: .5px solid #b5b5b5;
+    background-color: transparent;
+    border-radius: 2rem;
+    color: #b5b5b5;
+    transition: .4s ease;
+}
+
+.collection-button button:hover {
+    color: #b5b5b5;
+    background-color: #252525;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -383,8 +463,12 @@ a {
     }
 
     .l-item svg {
-        height: 100px;
-        width: 100px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .bo-s {
+        margin-left: -15rem;
     }
 
 }
