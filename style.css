@@ -23,6 +23,97 @@
 }
 
 /* S1 starts */
+
+.side-menu {
+    position: fixed;
+    left: 0;
+    margin-top: 12rem;
+    height: 350px;
+    z-index: 1;
+    width: 60px;
+    /* background-color: red; */
+}
+
+.d1 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: green;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
+.d1:hover,
+.d2:hover,
+.d3:hover,
+.d4:hover,
+.d5:hover,
+.d6:hover,
+.d7:hover {
+    margin: 0px;
+}
+
+.d2 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: red;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
+.d3 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: rgb(179, 179, 54);
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
+.d4 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: tomato;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
+.d5 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: violet;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
+.d6 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
+.d7 {
+    height: 50px;
+    width: 60px;
+    margin-left: -40px;
+    background-color: lawngreen;
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 0 .2rem .2rem 0;
+}
+
 #hero-section {
     /* height: 100vh; */
     width: 100%;
@@ -347,6 +438,8 @@ a {
     margin-top: 10px;
 }
 
+/* PROPERTIES SECTION  */
+
 
 #properties {
     width: 100%;
@@ -360,19 +453,26 @@ a {
     width: 400px;
     border: none;
     box-shadow: none;
+    z-index: 0;
+}
+
+.prop-img {
+    z-index: 1;
 }
 
 .prop-container {
     margin-bottom: 8rem;
 }
 
+/* COLLECTION SECTION  */
+
 #collection-section {
-    height: 100vh;
     width: 100%;
 }
 
 .collection-div {
     gap: 30px;
+    /* padding-bottom: 5rem; */
 }
 
 .collection-text {
@@ -420,6 +520,13 @@ a {
     background-color: #252525;
     cursor: pointer;
 }
+
+.all-collection {
+    margin-bottom: 5rem;
+    gap: 30px;
+}
+
+/* MEDIA SCREEN  */
 
 @media only screen and (max-width: 1080px) {
 

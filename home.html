@@ -5,9 +5,20 @@
     <title>PROLAND - A better place</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="side-menu">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+        <div class="d5"></div>
+        <div class="d6"></div>
+        <div class="d7"></div>
+    </div>
+    <div class="side-scroll"></div>
     <section id="hero-section">
         <div class="navbar justify">
             <div class="container justify-spacearound">
@@ -52,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <div class="hero-text">
+        <div class="hero-text" data-aos="fade-down">
             <h1 class="hero-head">The future of tech is here</h1>
             <div class="text-div justify">
                 <p class="hero-p">Holisticly incentivize revolutionary collaboration and idea sharing before cost
@@ -65,13 +76,13 @@
                 </div>
             </div>
         </div>
-        <div class="hero-img justify">
+        <div class="hero-img justify" data-aos="fade-up">
             <img src="images/p1-apple-watch.png" alt="">
         </div>
     </section>
     <section id="product-section">
-        <h2 class="product-head">THE PRODUCT</h2>
-        <div class="product-text-div justify">
+        <div class="product-text-div justify" data-aos="fade-up">
+            <h2 class="product-head">THE PRODUCT</h2>
             <p class="product-p">Introduce the product here. A small description about what it is and how it helps the
                 user.
                 You can also add
@@ -79,21 +90,23 @@
             <hr style="background:#dddddd; width: 5%; height: 3px; border-radius: 1rem;">
         </div>
         <div class="product-img justify">
-            <span class="ri-s">+</span>
+            <span class="ri-s" data-aos="fade-right">+</span>
             <img src="images/p2-apple-watch-2.png" alt="">
-            <span class="up-s">+</span>
-            <span class="le-s">+</span>
-            <span class="bo-s">+</span>
+            <span class="up-s" data-aos="fade-left">+</span>
+            <span class="le-s" data-aos="fade-left">+</span>
+            <span class="bo-s" data-aos="fade-right">+</span>
         </div>
     </section>
     <section id="how-it-works">
-        <h2 class="product-head">HOW IT WORKS</h2>
-        <div class="product-text-div justify">
-            <p class="how-p">Everybody loves tech gadgets, But our’s is different. Here is how it works. Its should
-                be simple. Add how easy is to install your product</p>
+        <div class="how-text" data-aos="fade-up">
+            <h2 class="product-head">HOW IT WORKS</h2>
+            <div class="product-text-div justify">
+                <p class="how-p">Everybody loves tech gadgets, But our’s is different. Here is how it works. Its should
+                    be simple. Add how easy is to install your product</p>
+            </div>
         </div>
         <div class="grid-div justify">
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <div class="col-img justify"><img src="images/desktop.png" alt=""></div>
                 <h4 class="col-head">Connect Device</h4>
                 <div class="col-p justify">
@@ -101,7 +114,7 @@
                         eta rehenderit in voluptate velit.</p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <div class="col-img justify"><img src="images/toggles.png" alt=""></div>
                 <h4 class="col-head">Configure it</h4>
                 <div class="col-p justify">
@@ -109,7 +122,7 @@
                         eta rehenderit in voluptate velit.</p>
                 </div>
             </div>
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <div class="col-img justify"><img src="images/trophy.png" alt=""></div>
                 <h4 class="col-head">Yay! Done.</h4>
                 <div class="col-p justify">
@@ -119,7 +132,7 @@
             </div>
         </div>
     </section>
-    <section id="Benefit-section">
+    <section id="Benefit-section" data-aos="fade-up">
         <h2 class="product-head">THE BENEFITS</h2>
         <div class="product-text-div justify">
             <p class="how-p">List out your product’s benefit here. A small description about what it is and how it helps
@@ -130,7 +143,7 @@
         </div>
         <div class="justify">
             <div class="benefit-grid-div">
-                <div class="ben-col ">
+                <div class="ben-col" data-aos="zoom-in">
                     <div class="ben-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="location">
                             <path fill="#e3e2e1"
                                 d="M54.01 58.74C54.01 61.65 44.15 64 32 64c-12.15 0-22.01-2.35-22.01-5.26 0-2.6 7.9-4.74 18.26-5.18h7.5c10.37.44 18.26 2.58 18.26 5.18z">
@@ -146,7 +159,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col ">
+                <div class="ben-col" data-aos="zoom-in">
                     <div class="ben-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.5 47.5" id="heart">
                             <defs>
                                 <clipPath id="a">
@@ -167,7 +180,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col ">
+                <div class="ben-col" data-aos="zoom-in">
                     <div class="ben-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="lock">
                             <rect width="44" height="31" x="10" y="25" rx="2" ry="2" fill="none" stroke="#d13d61"
                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2px"></rect>
@@ -179,14 +192,14 @@
                             <line x1="32" x2="32" y1="45" y2="38" fill="none" stroke="#d13d61" stroke-linecap="round"
                                 stroke-linejoin="round" stroke-width="2px"></line>
                         </svg></div>
-                    <div class="ben-text-div ">
+                    <div class="ben-text-div">
                         <div class="ben-head">
                             Security first</div>
                         <div class="ben-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col ">
+                <div class="ben-col" data-aos="zoom-in">
                     <div class="ben-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" id="bulb">
                             <g opacity=".97" transform="translate(0 -1019.862)">
                                 <path
@@ -220,7 +233,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col ">
+                <div class="ben-col " data-aos="zoom-in">
                     <div class="ben-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="money">
                             <path
                                 d="M16 17c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm0-14c-3.309 0-6 2.691-6 6s2.691 6 6 6 6-2.691 6-6-2.691-6-6-6z"
@@ -239,7 +252,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col ">
+                <div class="ben-col" data-aos="zoom-in">
                     <div class="ben-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="test">
                             <path fill="#fff"
                                 d="M239.5,136.75h78.85a0,0,0,0,1,0,0V394.89a39.43,39.43,0,0,1-39.43,39.43h0a39.43,39.43,0,0,1-39.43-39.43V136.75a0,0,0,0,1,0,0Z"
@@ -305,7 +318,7 @@
     <section id="properties">
         <div class="prop-container justify">
             <div class="prop-div">
-                <div class="ben-col prop-col">
+                <div class="ben-col prop-col" data-aos="fade-left">
                     <div class="ben-icon"><img src="images/propertiesImgs/security.png" alt=""></div>
                     <div class="ben-text-div ">
                         <div class="ben-head">
@@ -314,7 +327,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col prop-col">
+                <div class="ben-col prop-col" data-aos="fade-left">
                     <div class="ben-icon"><img src="images/propertiesImgs/marketing.png" alt=""></div>
                     <div class="ben-text-div ">
                         <div class="ben-head">
@@ -324,7 +337,7 @@
                     </div>
                 </div>
 
-                <div class="ben-col prop-col">
+                <div class="ben-col prop-col" data-aos="fade-left">
                     <div class="ben-icon"><img src="images/propertiesImgs/diamond.png" alt=""></div>
                     <div class="ben-text-div ">
                         <div class="ben-head">
@@ -338,7 +351,7 @@
                 <img src="images/s3-apple-watch-3.png" alt="">
             </div>
             <div class="prop-div">
-                <div class="ben-col prop-col">
+                <div class="ben-col prop-col" data-aos="fade-right">
                     <div class="ben-icon"><img src="images/propertiesImgs/like.png" alt=""></div>
                     <div class="ben-text-div ">
                         <div class="ben-head">
@@ -347,7 +360,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col prop-col">
+                <div class="ben-col prop-col" data-aos="fade-right">
                     <div class="ben-icon"><img src="images/propertiesImgs/user.png" alt=""></div>
                     <div class="ben-text-div ">
                         <div class="ben-head">
@@ -356,7 +369,7 @@
                             tempor incididunt ut labore et dolore</div>
                     </div>
                 </div>
-                <div class="ben-col prop-col">
+                <div class="ben-col prop-col" data-aos="fade-right">
                     <div class="ben-icon"><img src="images/propertiesImgs/smart-watch.png" alt=""></div>
                     <div class="ben-text-div ">
                         <div class="ben-head">
@@ -369,24 +382,18 @@
         </div>
     </section>
     <section id="collection-section">
-        <h2 class="product-head">OUR COLLECTION</h2>
-        <div class="product-text-div justify">
-            <p class="product-p">You are unique. You have unique style and you need a unique watch for you. Choose from
-                our collection of watches.</p>
-            <hr class="collection-hr" style="background:#dddddd; width: 5%; height: 3px; border-radius: 1rem;">
-        </div>
-        <div class="collection-div justify">
-            <div class="collection-col">
-                <img src="images/Collection/collection-1.jpg" alt="">
-                <div class="collection-text">
-                    <div class="collection-name">Watch Limited Edition</div>
-                    <div class="collection-type">Stainless steel case</div>
-                    <div class="collection-price">$399</div>
-                    <div class="collection-button"><button>Choose</button></div>
-                </div>
+        <div class="col-text" data-aos="fade-up">
+            <h2 class="product-head">OUR COLLECTION</h2>
+            <div class="product-text-div justify">
+                <p class="product-p">You are unique. You have unique style and you need a unique watch for you. Choose
+                    from
+                    our collection of watches.</p>
+                <hr class="collection-hr" style="background:#dddddd; width: 5%; height: 3px; border-radius: 1rem;">
             </div>
+        </div>
+        <div class="all-collection justify">
             <div class="collection-div justify">
-                <div class="collection-col">
+                <div class="collection-col" data-aos="fade-right">
                     <img src="images/Collection/collection-1.jpg" alt="">
                     <div class="collection-text">
                         <div class="collection-name">Watch Limited Edition</div>
@@ -395,9 +402,29 @@
                         <div class="collection-button"><button>Choose</button></div>
                     </div>
                 </div>
+                <div class="collection-col" data-aos="fade-right">
+                    <img src="images/Collection/collection-1.jpg" alt="">
+                    <div class="collection-text">
+                        <div class="collection-name">Watch Limited Edition</div>
+                        <div class="collection-type">Stainless steel case</div>
+                        <div class="collection-price">$399</div>
+                        <div class="collection-button"><button>Choose</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-div justify">
+                <div class="collection-col" data-aos="fade-left">
+                    <img src="images/Collection/collection-3.jpg" alt="">
+                    <div class="collection-text">
+                        <div class="collection-name">Watch Limited Edition</div>
+                        <div class="collection-type">Stainless steel case</div>
+                        <div class="collection-price">$399</div>
+                        <div class="collection-button"><button>Choose</button></div>
+                    </div>
+                </div>
                 <div class="collection-div justify">
-                    <div class="collection-col">
-                        <img src="images/Collection/collection-3.jpg" alt="">
+                    <div class="collection-col" data-aos="fade-left">
+                        <img src="images/Collection/collection-1.jpg" alt="">
                         <div class="collection-text">
                             <div class="collection-name">Watch Limited Edition</div>
                             <div class="collection-type">Stainless steel case</div>
@@ -405,19 +432,21 @@
                             <div class="collection-button"><button>Choose</button></div>
                         </div>
                     </div>
-                    <div class="collection-div justify">
-                        <div class="collection-col">
-                            <img src="images/Collection/collection-1.jpg" alt="">
-                            <div class="collection-text">
-                                <div class="collection-name">Watch Limited Edition</div>
-                                <div class="collection-type">Stainless steel case</div>
-                                <div class="collection-price">$399</div>
-                                <div class="collection-button"><button>Choose</button></div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="The-watch">
+        <div class="watch-text">
+            <div class="watch-head">THE WATCH</div>
+            <div class="watch-para"></div>
+            <hr style="background:#dddddd; width: 5%; height: 3px; border-radius: 1rem;">
+        </div>
+        <div class="watch-img"><img src="images/section-the-watch.png" alt=""></div>
     </section>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();</script>
 </body>
 
 </html>

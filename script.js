@@ -31,19 +31,3 @@ window.onscroll = function () {
   }
 };
 
-function updateButtonText() {
-  let paragraph = document.querySelector('.preorder-button p');
-
-  // Check if the screen width is 768px or less (typical for mobile devices)
-  if (window.innerWidth <= 1080) {
-    paragraph.textContent = "Order"; // Change text for mobile devices
-  } else {
-    paragraph.textContent = "Pre-order Now"; // Change text for larger screens (like laptops)
-  }
-}
-
-// Call the function initially to set the correct text
-updateButtonText();
-
-// Add an event listener to update text when the window is resized
-window.addEventListener('resize', updateButtonText);
